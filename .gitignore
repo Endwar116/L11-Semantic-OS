@@ -1,0 +1,6 @@
+
+# Babel Protocol - Local Only
+Babel_Protocol/
+**/Babel_Protocol/
+**/*SIC_S*.json
+**/*Layer*_*.json
