@@ -221,6 +221,45 @@ L11 Semantic OS is open source (MIT License).
 
 ---
 
+## 🛠️ Core Components
+
+### SIC Kernel v0.4.1
+
+**Status:** ACTIVE (2026-01-14)
+
+The SIC (Semantic Infinite Context) Kernel is the core semantic processing engine of L11 Semantic OS.
+
+**Features:**
+- Entropy calculation (OpenAI Embedding + zlib fallback)
+- Role drift detection
+- Circuit breaker mechanism
+- Encoding Gate integration (Pre-Entropy Gate)
+
+**File:** [`L11_Core/sic_kernel_2026-01-14_v0.4.1.py`](./L11_Core/sic_kernel_2026-01-14_v0.4.1.py)
+
+### Encoding Gate v1.0
+
+**Status:** ACTIVE (2026-01-14)
+
+The Encoding Gate is a Pre-Entropy Gate that detects encoding-unmeasurable inputs before entropy calculation.
+
+**Detection Criteria:**
+- UTF-8 decode failure
+- Normalization ambiguity (NFC ≠ NFKC + non-printable >10%)
+- Emoji density >30%
+- Random noise signature (3+ consecutive unknown codepoints)
+- Entropy bounds (compression ratio <0.05 or >1.2 for inputs ≥100 bytes)
+
+**Handling:**
+- External interface: REJECT (HTTP 400 + error JSON)
+- Internal interface: FAILSAFE_LOCKDOWN (LOG + notification + incident ticket)
+
+**File:** [`L11_Core/encoding_gate_2026-01-14_v1.0.py`](./L11_Core/encoding_gate_2026-01-14_v1.0.py)
+
+**Documentation:** See [SIC-SIT-Protocol](https://github.com/Endwar116/SIC-SIT-Protocol) for full specifications.
+
+---
+
 ## 📄 License
 
 MIT License - See [LICENSE](./LICENSE) for details.
