@@ -1,0 +1,24 @@
+Dual License — L11 Semantic OS
+Copyright (c) 2026 Endwar116 / IMCC
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DOCUMENTATION FILES (*.md, *.pdf, *.txt)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+https://creativecommons.org/licenses/by-sa/4.0/
+
+You are free to share and adapt, provided you:
+  - Give appropriate credit to Endwar116 / IMCC
+  - Distribute derivatives under the same CC BY-SA 4.0 license
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SOFTWARE & PIPELINE FILES (*.json, *.py, *.js)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+GNU Affero General Public License v3.0 (AGPL 3.0)
+https://www.gnu.org/licenses/agpl-3.0.txt
+
+If you run modified pipeline software as a network service, you must make
+the complete source code available to all users of that service.
+
+For closed-source commercial deployment, contact Endwar116 for a
+separate commercial license.

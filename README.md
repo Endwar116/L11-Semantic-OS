@@ -287,3 +287,22 @@ Built with contributions from:
 - Manus (Strategic Oversight)
 
 **Powered by the Multi-Model Council it describes.**
+
+---
+
+## License
+
+This repository uses a **dual license**:
+
+| File Type | License |
+|-----------|---------|
+| Documentation (`*.md`, `*.pdf`, `*.txt`) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) — share & adapt with attribution, same license required |
+| Pipeline & Software (`*.json`, `*.py`, `*.js`) | [AGPL 3.0](https://www.gnu.org/licenses/agpl-3.0.html) — open source required if deployed as network service |
+
+**Specifically**:
+- All `.md` and `.pdf` specification files → **CC BY-SA 4.0**
+- `L11_n8n_Pipeline_Source_2026-01-11_v1.0.json` → **AGPL 3.0**
+
+For commercial closed-source deployment of the pipeline, contact Endwar116.
+
+© 2026 Endwar116 / IMCC
